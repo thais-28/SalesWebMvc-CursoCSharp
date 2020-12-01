@@ -41,7 +41,7 @@ namespace SalesWebMvc.Controllers
         {
             if (!minDate.HasValue)
             {
-                minDate = new DateTime(DateTime.Now.Year, 1, 1);
+                minDate = new DateTime(2018, 1, 1);
             }
             if (!maxDate.HasValue)
             {
